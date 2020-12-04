@@ -1,0 +1,13 @@
+.one-conlumn {
+    @include base-grid();
+    grid-template-columns: 1fr;
+    
+}
+
+
+.two-conlumn {
+    @include base-grid();
+    grid-template-columns: 1fr 1fr;
+}
+
+
